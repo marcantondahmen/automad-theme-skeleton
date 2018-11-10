@@ -1,0 +1,11 @@
+{
+    "name": "Theme Skeleton",
+    "description": "A simple theme skeleton",
+    "author": "Your Name",
+    "version": "0.1.0",
+    "license": "MIT",
+    "tooltips": {
+        "text": "The main content of the page",
+		"textTeaser": "The content of the teaser section"
+    }
+}
