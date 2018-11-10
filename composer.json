@@ -3,5 +3,8 @@
     "description": "An Automad theme package skeleton for developers",
     "type": "automad-package",
     "keywords": ["theme", "development"],
-    "license": "MIT"
+    "license": "MIT",
+    "require": {
+        "automad/package-installer": "dev-default"
+    }
 }
