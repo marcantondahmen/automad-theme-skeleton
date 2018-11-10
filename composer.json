@@ -1,0 +1,7 @@
+{
+    "name": "automad/theme-skeleton",
+    "description": "An Automad theme package skeleton for developers",
+    "type": "automad-package",
+    "keywords": ["theme", "development"],
+    "license": "MIT"
+}
