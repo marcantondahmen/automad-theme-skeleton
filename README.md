@@ -6,7 +6,7 @@ You can use this package as a skeleton for new [Automad](https://automad.org) th
 
 Navigate to the `packages` directory in your Automad installation and create a directory for your namespace. Inside that directory create a directory for your theme. Use the following command inside the theme directory to create a new theme skeleton:
 
-	composer create-project automad/extension-skeleton .
+	composer create-project automad/theme-skeleton .
 
 ## 2. Edit composer.json
 
