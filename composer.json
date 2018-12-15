@@ -2,9 +2,9 @@
     "name": "automad/theme-skeleton",
     "description": "An Automad theme package skeleton for developers",
     "type": "automad-package",
-    "keywords": ["theme", "development"],
+    "keywords": ["theme"],
     "license": "MIT",
     "require": {
-        "automad/package-installer": ">=1.1-stable"
+        "automad/package-installer": "^1.1"
     }
 }
