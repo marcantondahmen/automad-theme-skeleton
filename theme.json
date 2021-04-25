@@ -5,7 +5,6 @@
     "version": "0.1.0",
     "license": "MIT",
     "tooltips": {
-        "text": "The main content of the page",
-		"textTeaser": "The content of the teaser section"
+        "+main": "The main content of the page"
     }
 }
