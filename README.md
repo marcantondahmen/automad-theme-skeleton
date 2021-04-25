@@ -125,7 +125,4 @@ Now it's time to submit your theme package to [Packagist](https://packagist.org)
 
 ## Cheat Sheets
 
-In case you prefer to start developing a theme or extension without reading the full documention, the cheat sheets are a good point to start.
-
-| [Cheat Sheets](https://automad.org/developer-guide/cheat-sheets) |
-|---|
+In case you prefer to start developing a theme or extension without reading the full documention, the [Cheat Sheets](https://automad.org/developer-guide/cheat-sheets) are a good point to start.
