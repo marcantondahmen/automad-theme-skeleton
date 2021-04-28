@@ -2,7 +2,6 @@
     "name": "Theme Skeleton",
     "description": "A simple theme skeleton",
     "author": "Your Name",
-    "version": "0.1.0",
     "license": "MIT",
     "tooltips": {
         "+main": "The main content of the page"
