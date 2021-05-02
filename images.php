@@ -19,7 +19,7 @@ such as the header, navbar and footer markup.
 					<p class="am-block is-size-5">
 						This template demonstrates how files can be handled using Automad's template language.
 						Check out the source of this file to learn how <b>filelist</b> objects work and 
-						how images can be easily resized to used as thumbnails.
+						how images can be easily resized to be used as thumbnails in cards.
 					</p>
 					<section class="am-block">
 						<div class="columns is-multiline is-variable">
