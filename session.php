@@ -46,7 +46,7 @@ such as the header, navbar and footer markup.
 									<p class="control">
 										<a
 										href="?lang=en" 
-										class="button is-info<@ if @{ %lang | def('en') } = 'en' @> is-active<@ end @>"
+										class="button is-dark<@ if @{ %lang | def('en') } = 'en' @> is-active<@ end @>"
 										>
 										English
 										</a>
@@ -54,7 +54,7 @@ such as the header, navbar and footer markup.
 									<p class="control">
 										<a
 										href="?lang=de" 
-										class="button is-info<@ if @{ %lang } = 'de' @> is-active<@ end @>"
+										class="button is-dark<@ if @{ %lang } = 'de' @> is-active<@ end @>"
 										>
 										German
 										</a>
