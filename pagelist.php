@@ -35,7 +35,7 @@ such as the header, navbar and footer markup.
 							<div class="field has-addons">
 								<div class="dropdown is-hoverable">
 									<div class="dropdown-trigger">
-										<button class="button is-info" aria-haspopup="true" aria-controls="dropdown-menu">
+										<button class="button is-dark" aria-haspopup="true" aria-controls="dropdown-menu">
 											<span>
 												<span class="icon is-small">
 													<i class="fas fa-filter" aria-hidden="true"></i>
@@ -88,7 +88,7 @@ such as the header, navbar and footer markup.
 									<a 
 									<# The concept of creating the sorting menu is the same as for the filters. #>
 									href="?<@ queryStringMerge { sort: 'date desc' } @>" 
-									class="button is-info<@ if not @{ ?sort } or @{ ?sort } = 'date desc' @> is-active<@ end @>">
+									class="button is-dark<@ if not @{ ?sort } or @{ ?sort } = 'date desc' @> is-active<@ end @>">
 										<span class="icon is-small">
 											<i class="fas fa-sort-numeric-down" aria-hidden="true"></i>
 										</span>&nbsp;
@@ -98,7 +98,7 @@ such as the header, navbar and footer markup.
 								<p class="control">
 									<a 
 									href="?<@ queryStringMerge { sort: 'title asc' } @>" 
-									class="button is-info<@ if @{ ?sort } = 'title asc' @> is-active<@ end @>"
+									class="button is-dark<@ if @{ ?sort } = 'title asc' @> is-active<@ end @>"
 									>
 										<span class="icon is-small">
 											<i class="fas fa-sort-alpha-up" aria-hidden="true"></i>
