@@ -34,7 +34,7 @@ The menu is based on a simple recursive snippet.
 						whether the active item in the loop is also the currently requested 
 						page.
 						#>
-						<@ if @{ :current } @>class="has-background-info has-text-white"<@ end @>
+						<@ if @{ :current } @>class="has-background-dark has-text-white"<@ end @>
 						>
 							@{ title }
 						</a>
