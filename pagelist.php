@@ -13,9 +13,14 @@ such as the header, navbar and footer markup.
 					This is essential to make the headline aligned with all other blocks
 					in the +main variable.
 					#>
-					<h1 class="title">
+					<h1 class="am-block title">
 						@{ title }
 					</h1>
+					<p class="am-block is-size-5">
+						Building a portfolio or blog page is a very common task. Check out the source of this 
+						template to understand how <b>pagelist</b> objects work and how filters can be easily implemented 
+						using Automad's template language.
+					</p>
 					<# 
 					As a next step, the pagelist is configured.
 					Note that query string parameters get used as parameter values to make the pagelist
@@ -30,7 +35,7 @@ such as the header, navbar and footer markup.
 					<# 
 					A simple filter menu lets the user filter the paglist dynamically.
 					#>
-					<div class="field is-grouped is-grouped-multiline">
+					<div class="am-block mb-5 field is-grouped is-grouped-multiline">
 						<div class="control">
 							<div class="field has-addons">
 								<div class="dropdown is-hoverable">
