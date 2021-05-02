@@ -58,8 +58,7 @@ The menu is based on a simple recursive snippet.
 	Before actually calling the snippet, the pagelist is configured here. 
 	#>
 	<@ newPagelist { 
-		type: 'children',
-		excludeHidden: false 
+		type: 'children'
 	} @>
 	<# 
 	To create the tree markup, the navigation snippet is called once initially
