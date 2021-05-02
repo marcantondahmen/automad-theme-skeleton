@@ -11,7 +11,7 @@ such as the header, navbar and footer markup.
 					<h1 class="am-block title">
 						@{ title }
 					</h1>
-					<p class="am-block">
+					<p class="am-block is-size-5">
 						<#
 						Storing the language selection in the session data array.
 						In case the query string has a 'lang' parameter, a session data variable '%lang'
