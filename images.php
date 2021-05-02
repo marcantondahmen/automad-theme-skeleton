@@ -16,6 +16,11 @@ such as the header, navbar and footer markup.
 					<h1 class="am-block title">
 						@{ title }
 					</h1>
+					<p class="am-block is-size-5">
+						This template demonstrates how files can be handled using Automad's template language.
+						Check out the source of this file to learn how <b>filelist</b> objects work and 
+						how images can be easily resized to used as thumbnails.
+					</p>
 					<section class="am-block">
 						<div class="columns is-multiline is-variable">
 							<#
