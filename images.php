@@ -17,14 +17,14 @@ such as the header, navbar and footer markup.
 						@{ title }
 					</h1>
 					<section class="am-block">
-						<div class="tile is-ancestor">
+						<div class="columns is-multiline is-variable">
 							<#
 							The filelist can be defined by one or more glob patterns.
 							It is recommended to use a variable with a default pattern 
 							as value for the 'glob' parameter. 
 							#>
 							<@ filelist { 
-								glob: @{ images | def('https://source.unsplash.com/kjERLXaHjXc/1000x700, https://source.unsplash.com/VYCDTBAP8P4/1000x700, https://source.unsplash.com/6rXpQzfCYlw/1000x700') },
+								glob: @{ images | def('https://source.unsplash.com/8nebi46-k_M/1000x1000, https://source.unsplash.com/GSIzNfR9GLE/1000x1000, https://source.unsplash.com/PxypFiQMkIk/1000x1000') },
 								sort: 'asc'
 							} @>
 							<# 
@@ -34,8 +34,8 @@ such as the header, navbar and footer markup.
 							To access a single image it is also possible to use the 'with' statement.
 							#>
 							<@ foreach in filelist { width: 400, height: 300, crop: true } @>
-								<div class="tile is-vertical is-4 is-parent">
-									<div class="tile is-child card">
+								<div class="column is-one-third is-flex">
+									<div class="card is-flex-grow-1">
 										<div class="card-image">
 											<figure class="image is-4by3 is-marginless">
 												<img 
