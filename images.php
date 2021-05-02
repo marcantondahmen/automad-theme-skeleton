@@ -66,7 +66,7 @@ such as the header, navbar and footer markup.
 												#>
 												@{ :caption | def ('This file has **no** caption.') | markdown }
 												<p>
-													<span class="tag is-info">
+													<span class="tag is-dark">
 														<# The size of the original image. #>
 														@{ :width } x @{ :height }
 													</span>
