@@ -124,7 +124,7 @@ When developing is done, it's time to publish your work.
 
 ### Register Your Package
 
-Now it's time to submit your theme package to [Packagist](https://packagist.org). After succseffuly registering it, it will automatically show up in the package [browser](https://packages.automad.org).
+Now it's time to submit your theme package to [Packagist](https://packagist.org). After successfully registering it, it will automatically show up in the package [browser](https://packages.automad.org).
 
 
 ## Cheat Sheets
